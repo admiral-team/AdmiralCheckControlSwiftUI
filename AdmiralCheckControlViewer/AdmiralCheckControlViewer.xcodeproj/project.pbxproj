@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAF83A62AB4573D0021AD1A /* AdmiralCheckControlViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF83A52AB4573D0021AD1A /* AdmiralCheckControlViewerApp.swift */; };
+		0EAF83A82AB4573D0021AD1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF83A72AB4573D0021AD1A /* ContentView.swift */; };
+		0EAF83AA2AB4573F0021AD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF83A92AB4573F0021AD1A /* Assets.xcassets */; };
+		0EAF83AD2AB4573F0021AD1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EAF83AC2AB4573F0021AD1A /* Preview Assets.xcassets */; };
+		0EAF83BA2AB45D1B0021AD1A /* AdmiralCheckControlSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0EAF83B92AB45D1B0021AD1A /* AdmiralCheckControlSwiftUI */; };
+		0EAF83BD2AB48A890021AD1A /* CheckBoxSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF83BC2AB48A890021AD1A /* CheckBoxSwiftUIView.swift */; };
+		0EAF83C02AB48B610021AD1A /* SwiftUIContentViewScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF83BF2AB48B610021AD1A /* SwiftUIContentViewScheme.swift */; };
+		0EAF83C22AB48E340021AD1A /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF83C12AB48E340021AD1A /* MainItem.swift */; };
+		0EAF83C52AB499560021AD1A /* RadioButtonSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAF83C42AB499560021AD1A /* RadioButtonSwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EAF83A22AB4573D0021AD1A /* AdmiralCheckControlViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmiralCheckControlViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAF83A52AB4573D0021AD1A /* AdmiralCheckControlViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmiralCheckControlViewerApp.swift; sourceTree = "<group>"; };
+		0EAF83A72AB4573D0021AD1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EAF83A92AB4573F0021AD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EAF83AC2AB4573F0021AD1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EAF83B52AB45B790021AD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0EAF83B72AB45CF20021AD1A /* AdmiralCheckControlSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AdmiralCheckControlSwiftUI; path = ..; sourceTree = "<group>"; };
+		0EAF83BC2AB48A890021AD1A /* CheckBoxSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxSwiftUIView.swift; sourceTree = "<group>"; };
+		0EAF83BF2AB48B610021AD1A /* SwiftUIContentViewScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContentViewScheme.swift; sourceTree = "<group>"; };
+		0EAF83C12AB48E340021AD1A /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		0EAF83C42AB499560021AD1A /* RadioButtonSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonSwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EAF839F2AB4573D0021AD1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAF83BA2AB45D1B0021AD1A /* AdmiralCheckControlSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EAF83992AB4573D0021AD1A = {
+			isa = PBXGroup;
+			children = (
+				0EAF83B62AB45CF20021AD1A /* Packages */,
+				0EAF83A42AB4573D0021AD1A /* AdmiralCheckControlViewer */,
+				0EAF83A32AB4573D0021AD1A /* Products */,
+				0EAF83B82AB45D1B0021AD1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EAF83A32AB4573D0021AD1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83A22AB4573D0021AD1A /* AdmiralCheckControlViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EAF83A42AB4573D0021AD1A /* AdmiralCheckControlViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83C32AB499390021AD1A /* RadioButton */,
+				0EAF83BE2AB48B5A0021AD1A /* Main */,
+				0EAF83BB2AB48A770021AD1A /* CheckBox */,
+				0EAF83B52AB45B790021AD1A /* Info.plist */,
+				0EAF83A52AB4573D0021AD1A /* AdmiralCheckControlViewerApp.swift */,
+				0EAF83A92AB4573F0021AD1A /* Assets.xcassets */,
+				0EAF83AB2AB4573F0021AD1A /* Preview Content */,
+			);
+			path = AdmiralCheckControlViewer;
+			sourceTree = "<group>";
+		};
+		0EAF83AB2AB4573F0021AD1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83AC2AB4573F0021AD1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EAF83B62AB45CF20021AD1A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83B72AB45CF20021AD1A /* AdmiralCheckControlSwiftUI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		0EAF83B82AB45D1B0021AD1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EAF83BB2AB48A770021AD1A /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83BC2AB48A890021AD1A /* CheckBoxSwiftUIView.swift */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		0EAF83BE2AB48B5A0021AD1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83A72AB4573D0021AD1A /* ContentView.swift */,
+				0EAF83BF2AB48B610021AD1A /* SwiftUIContentViewScheme.swift */,
+				0EAF83C12AB48E340021AD1A /* MainItem.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0EAF83C32AB499390021AD1A /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				0EAF83C42AB499560021AD1A /* RadioButtonSwiftUIView.swift */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EAF83A12AB4573D0021AD1A /* AdmiralCheckControlViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EAF83B02AB4573F0021AD1A /* Build configuration list for PBXNativeTarget "AdmiralCheckControlViewer" */;
+			buildPhases = (
+				0EAF839E2AB4573D0021AD1A /* Sources */,
+				0EAF839F2AB4573D0021AD1A /* Frameworks */,
+				0EAF83A02AB4573D0021AD1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmiralCheckControlViewer;
+			packageProductDependencies = (
+				0EAF83B92AB45D1B0021AD1A /* AdmiralCheckControlSwiftUI */,
+			);
+			productName = AdmiralCheckControlViewer;
+			productReference = 0EAF83A22AB4573D0021AD1A /* AdmiralCheckControlViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EAF839A2AB4573D0021AD1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0EAF83A12AB4573D0021AD1A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0EAF839D2AB4573D0021AD1A /* Build configuration list for PBXProject "AdmiralCheckControlViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EAF83992AB4573D0021AD1A;
+			productRefGroup = 0EAF83A32AB4573D0021AD1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EAF83A12AB4573D0021AD1A /* AdmiralCheckControlViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EAF83A02AB4573D0021AD1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAF83AD2AB4573F0021AD1A /* Preview Assets.xcassets in Resources */,
+				0EAF83AA2AB4573F0021AD1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EAF839E2AB4573D0021AD1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAF83BD2AB48A890021AD1A /* CheckBoxSwiftUIView.swift in Sources */,
+				0EAF83C22AB48E340021AD1A /* MainItem.swift in Sources */,
+				0EAF83C52AB499560021AD1A /* RadioButtonSwiftUIView.swift in Sources */,
+				0EAF83A82AB4573D0021AD1A /* ContentView.swift in Sources */,
+				0EAF83A62AB4573D0021AD1A /* AdmiralCheckControlViewerApp.swift in Sources */,
+				0EAF83C02AB48B610021AD1A /* SwiftUIContentViewScheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EAF83AE2AB4573F0021AD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EAF83AF2AB4573F0021AD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EAF83B12AB4573F0021AD1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralCheckControlViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdmiralCheckControlViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdmiralTeam.AdmiralCheckControlViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EAF83B22AB4573F0021AD1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdmiralCheckControlViewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdmiralCheckControlViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdmiralTeam.AdmiralCheckControlViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EAF839D2AB4573D0021AD1A /* Build configuration list for PBXProject "AdmiralCheckControlViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAF83AE2AB4573F0021AD1A /* Debug */,
+				0EAF83AF2AB4573F0021AD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EAF83B02AB4573F0021AD1A /* Build configuration list for PBXNativeTarget "AdmiralCheckControlViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EAF83B12AB4573F0021AD1A /* Debug */,
+				0EAF83B22AB4573F0021AD1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EAF83B92AB45D1B0021AD1A /* AdmiralCheckControlSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AdmiralCheckControlSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0EAF839A2AB4573D0021AD1A /* Project object */;
+}
